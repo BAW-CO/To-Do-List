@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #faf9fa;
+  background-color: #cbccf5;
 }
 
 #todo {
@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-color: rgb(135, 131, 234);
   border: 2px solid hsla(0,0%,50%,.1);
 }
 
@@ -31,22 +31,26 @@ ul {
 li {
   border: 2px solid hsla(0,0%,50%,.1);
   background-color: white;
-  height: 24px;
+  height: 28px;
   display: flex;
   align-items: center;
   padding: 0 8px;
   margin-bottom: 8px;
   position: relative;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   margin-bottom: 16px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
   border: none;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 .todo__add {
@@ -72,6 +76,8 @@ input {
   border: 1px solid #242424;
   padding-left: 8px;
   outline: none;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
